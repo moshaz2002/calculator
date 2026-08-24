@@ -3,13 +3,13 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #f4f4f9;
+  background-color: #c08505;
   font-family: Arial, sans-serif;
   margin: 0;
 }
 
 .calculator {
-  background: #333;
+  background: #1d1c1c;
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
@@ -25,7 +25,7 @@ body {
   box-sizing: border-box;
   border: none;
   border-radius: 5px;
-  background: #fff;
+  background: #726f6f;
 }
 
 .buttons {
@@ -45,7 +45,7 @@ button {
 }
 
 button:hover {
-  background-color: #d4d4d4;
+  background-color: #706e6e;
 }
 
 .operator {
@@ -54,15 +54,37 @@ button:hover {
 }
 
 .operator:hover {
-  background-color: #e08500;
+  background-color: #663e03;
 }
 
 .equal {
-  background-color: #28a745;
+  background-color: green;
   color: white;
   grid-row: span 2;
 }
 
+.equal:hover {
+  background-color: rgb(3, 66, 3);
+}
+
 .zero {
   grid-column: span 2;
+}
+
+.operatorclear {
+  background-color: red;
+  color: white;
+}
+
+.operatorclear:hover {
+  background-color: darkred;
+}
+
+.operatordelete {
+  background-color: red;
+  color: white;
+}
+
+.operatordelete:hover {
+  background-color: darkred;
 }
